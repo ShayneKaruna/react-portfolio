@@ -1,0 +1,28 @@
+.button1 {
+    position: relative;
+    padding: 12px 32px;
+    margin-left: 46%;
+    margin-top: 70px;
+    margin-bottom: 6rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: grey;
+    opacity: 0.8;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
+  
+  .button1-light {
+    /* background: grey */
+    background: transparent;
+    color: white;
+  }
+  
+  .button1:hover {
+    background: grey;
+    color: white;
+    transition: 0.3s;
+  }
