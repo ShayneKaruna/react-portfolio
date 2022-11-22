@@ -1,24 +1,24 @@
 import React from "react";
-import "./index.css"
-import Home from "./routes/Home"
-import About from "./routes/About"
-import Project from "./routes/Project"
-import Contact from "./routes/Contact"
-import Resume from "./routes/Resume"
+import "./index.css";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Project from "./routes/Project";
+import Contact from "./routes/Contact";
+import Resume from "./routes/Resume";
 
-import { Route, Routes} from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <Routes>
-      <Route path="/react-portfolio" element={<Home />} />
-      <Route path="/project" element={<Project />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/resume" element={<Resume />} />
-      
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/react-portfolio" element={<Home />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
     </>
   );
 }
