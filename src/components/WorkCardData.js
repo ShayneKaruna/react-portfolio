@@ -3,7 +3,7 @@ import pro2 from "../assets/project2.jpg";
 import pro3 from "../assets/project3.PNG";
 import pro4 from "../assets/project4.PNG";
 import pro5 from "../assets/project5.PNG";
-import pro6 from "../assets/project6.PNG";
+import pro7 from "../assets/project3.JPG"
 
 
 
@@ -23,11 +23,11 @@ const ProjectCardData = [
         source: "https://github.com/roflmelon/movie-db-app",
     },
     {
-        imgsrc: pro3,
-        title: "Weather Dashboard",
-        text: "The motivation for the project Weather Dashboard was to create a weather app with many of the concepts I have learned using a third party API's",
-        view: "https://shaynekaruna.github.io/Weather-Dash/",
-        source: "https://github.com/NathanKryz/psychic-journey",
+        imgsrc: pro7,
+        title: "EZ DOSSIER",
+        text: "EZ Dossier is a portfolio maker for users to create a beautiful portfolio and land their first job. ",
+        view: "https://ezdossier.herokuapp.com/",
+        source: "https://github.com/ConstantMotion1/EZDossier",
     },
     {
         imgsrc: pro4,
@@ -44,11 +44,11 @@ const ProjectCardData = [
         source: "https://github.com/ShayneKaruna/mypassword-generator",
     },
     {
-        imgsrc: pro6,
-        title: "Timed Coding Quiz",
-        text: "This was a timed quiz about coding I created to test my knowledge on coding. There is a highscore tab also to keep track of progress. This repo is a exercise in using JavaScript API's in order to create user reactive webpages.",
-        view: "https://shaynekaruna.github.io/TimedQuiz/",
-        source: "https://github.com/ShayneKaruna/TimedQuiz",
+        imgsrc: pro3,
+        title: "Weather Dashboard",
+        text: "The motivation for the project Weather Dashboard was to create a weather app with many of the concepts I have learned using a third party API's",
+        view: "https://shaynekaruna.github.io/Weather-Dash/",
+        source: "https://shaynekaruna.github.io/Weather-Dash/",
     }
 ];
 
