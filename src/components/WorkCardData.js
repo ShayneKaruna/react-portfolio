@@ -25,7 +25,7 @@ const ProjectCardData = [
     {
         imgsrc: pro7,
         title: "EZ DOSSIER",
-        text: "EZ Dossier is a portfolio maker for users to create a beautiful portfolio and land their first job. ",
+        text: "EZ Dossier is a portfolio maker for users to create a beautiful portfolio and land their first job. This project uses GraphQL, React and JWT to securely login. Users are prompted to choose between a minimalistic or elaborate design. Once chosen they will input their info and a portfolio will be created using the information submitted. ",
         view: "https://ezdossier.herokuapp.com/",
         source: "https://github.com/ConstantMotion1/EZDossier",
     },
